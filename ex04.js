@@ -6,11 +6,9 @@ function trouverPersonne(personnes, nom) {
 	}
 	return null;
 }
-
 const personnes = [
 	{ nom: "Alice", age: 30 },
 	{ nom: "Bob", age: 25 },
-	{ nom: "Charlie", age: 35 }
+	{ nom: "Charlie", age: 35 },
 ];
-
-console.log(trouverPersonne(personnes, "Bob")); 
+console.log(trouverPersonne(personnes, "Bob"));
